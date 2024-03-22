@@ -14,6 +14,11 @@ public class WheelController : MonoBehaviour
 
     [SerializeField] float acceleration = 500f;
 
+    [SerializeField] Transform frontRightWheelMesh;
+    [SerializeField] Transform frontLeftWheelMesh;
+    [SerializeField] Transform backRightWheelMesh;
+    [SerializeField] Transform backLeftWheelMesh;
+
     float currentAcceleration = 0f;
     float currentTurnAngle = 0;
 
@@ -28,5 +33,26 @@ public class WheelController : MonoBehaviour
         currentTurnAngle = maxTurnAngle * context.ReadValue<Vector2>().x;
         frontLeft.steerAngle = currentTurnAngle;
         frontRight.steerAngle = currentTurnAngle;
+    }
+
+    private void FixedUpdate()
+    {
+        SetWheel(frontRight, frontRightWheelMesh);
+        SetWheel(frontLeft, frontLeftWheelMesh);
+        SetWheel(backRight, backRightWheelMesh);
+        SetWheel(backLeft, backLeftWheelMesh); 
+    }
+
+    void SetWheel(WheelCollider wheelCol, Transform wheelMesh)
+    {
+        Debug.Log(wheelCol);
+        Debug.Log(wheelMesh);
+        
+        Vector3 pos;
+        Quaternion rot;
+        wheelCol.GetWorldPose(out pos, out rot);
+
+        wheelMesh.position = pos;
+        wheelMesh.rotation = rot;
     }
 }
