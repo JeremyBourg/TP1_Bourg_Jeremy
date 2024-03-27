@@ -233,10 +233,10 @@ WheelCollider:
     spring: 35000
     damper: 4500
     targetPosition: 0.5
-  m_SuspensionDistance: 0.3
+  m_SuspensionDistance: 0.02
   m_ForceAppPointDistance: 0
-  m_Mass: 20
-  m_WheelDampingRate: 0.25
+  m_Mass: 80
+  m_WheelDampingRate: 10
   m_ForwardFriction:
     m_ExtremumSlip: 0.4
     m_ExtremumValue: 1
@@ -344,8 +344,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: 0.23315446, y: -0.000000033464335, z: 0.0000000080234885, w: 0.97243977}
-  m_LocalPosition: {x: -137.51, y: 5.32, z: -98.43}
+  m_LocalRotation: {x: -0.012969122, y: 0.97093415, z: -0.2327934, w: -0.054091588}
+  m_LocalPosition: {x: 40.146294, y: 6.56, z: 134.18945}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -560,7 +560,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351709601}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -137.51, y: 5.32, z: -98.43}
+  m_LocalPosition: {x: 40.146294, y: 6.56, z: 134.18945}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -928,10 +928,10 @@ WheelCollider:
     spring: 35000
     damper: 4500
     targetPosition: 0.5
-  m_SuspensionDistance: 0.3
+  m_SuspensionDistance: 0.02
   m_ForceAppPointDistance: 0
-  m_Mass: 20
-  m_WheelDampingRate: 0.25
+  m_Mass: 80
+  m_WheelDampingRate: 10
   m_ForwardFriction:
     m_ExtremumSlip: 0.4
     m_ExtremumValue: 1
@@ -1023,7 +1023,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 681899081}
-  m_LocalRotation: {x: 0.1976767, y: -0.000000029414585, z: 0.000000005931625, w: 0.9802673}
+  m_LocalRotation: {x: -0.010995678, y: 0.97874963, z: -0.19737057, w: -0.054526955}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1102,7 +1102,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749365599}
-  m_LocalRotation: {x: 0.2331544, y: -0.000000008366084, z: 0.0000000020058717, w: 0.97243977}
+  m_LocalRotation: {x: -0.012969112, y: 0.9709342, z: -0.23279335, w: -0.054091554}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1443,10 +1443,10 @@ WheelCollider:
     spring: 35000
     damper: 4500
     targetPosition: 0.5
-  m_SuspensionDistance: 0.3
+  m_SuspensionDistance: 0.02
   m_ForceAppPointDistance: 0
-  m_Mass: 20
-  m_WheelDampingRate: 0.25
+  m_Mass: 80
+  m_WheelDampingRate: 10
   m_ForwardFriction:
     m_ExtremumSlip: 0.4
     m_ExtremumValue: 1
@@ -1728,7 +1728,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645804636}
-  m_LocalRotation: {x: 0.20090304, y: 0.000000023837364, z: -0.0000000048886735, w: 0.97961116}
+  m_LocalRotation: {x: -0.011175146, y: 0.97809446, z: -0.20059192, w: -0.054490466}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1828,8 +1828,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806809286}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -135.5, y: -1.91, z: -83.2}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000022202728}
+  m_LocalPosition: {x: 36.87, y: -0.67, z: 119.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1839,7 +1839,7 @@ Transform:
   - {fileID: 2016637710}
   m_Father: {fileID: 494332832}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!54 &1806809288
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1848,9 +1848,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806809286}
   serializedVersion: 4
-  m_Mass: 1500
+  m_Mass: 1200
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 2
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1925,8 +1925,8 @@ MonoBehaviour:
   frontLeft: {fileID: 631566122}
   backRight: {fileID: 266533802}
   backLeft: {fileID: 1143335982}
-  maxTurnAngle: 15
-  acceleration: 500
+  maxTurnAngle: 25
+  acceleration: 3000
   frontRightWheelMesh: {fileID: 181780439}
   frontLeftWheelMesh: {fileID: 1864521934}
   backRightWheelMesh: {fileID: 764234188}
@@ -2024,10 +2024,10 @@ WheelCollider:
     spring: 35000
     damper: 4500
     targetPosition: 0.5
-  m_SuspensionDistance: 0.3
+  m_SuspensionDistance: 0.02
   m_ForceAppPointDistance: 0
-  m_Mass: 20
-  m_WheelDampingRate: 0.25
+  m_Mass: 80
+  m_WheelDampingRate: 10
   m_ForwardFriction:
     m_ExtremumSlip: 0.4
     m_ExtremumValue: 1
