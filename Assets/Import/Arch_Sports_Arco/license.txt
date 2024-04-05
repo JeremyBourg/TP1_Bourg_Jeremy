@@ -1,0 +1,11 @@
+Model Information:
+* title:	Arch Sports Arco
+* source:	https://sketchfab.com/3d-models/arch-sports-arco-fc6fd6cf871b48bfab0d81741e0cb917
+* author:	One Up Game Assets (https://sketchfab.com/OneUpGameAssets)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Arch Sports Arco" (https://sketchfab.com/3d-models/arch-sports-arco-fc6fd6cf871b48bfab0d81741e0cb917) by One Up Game Assets (https://sketchfab.com/OneUpGameAssets) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
