@@ -47,9 +47,6 @@ public class WheelController : MonoBehaviour
 
     void SetWheel(WheelCollider wheelCol, Transform wheelMesh)
     {
-        Debug.Log(wheelCol);
-        Debug.Log(wheelMesh);
-        
         Vector3 pos;
         Quaternion rot;
         wheelCol.GetWorldPose(out pos, out rot);
