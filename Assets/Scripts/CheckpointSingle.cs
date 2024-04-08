@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
-
     private Collider checkpointCollider;
 
     private void Start()
