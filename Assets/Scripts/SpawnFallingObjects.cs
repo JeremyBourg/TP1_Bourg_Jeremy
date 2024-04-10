@@ -10,7 +10,7 @@ public class SpawnFallingObjects : MonoBehaviour
     private Vector3 zoneSize;
 
     private void Start() {
-        InvokeRepeating("SpawnObject", 3f, Random.Range(1f, 5f));  
+        InvokeRepeating("SpawnObject", 3f, Random.Range(3f, 8f));  
     }
 
     private void SpawnObject(){
